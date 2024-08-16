@@ -1,0 +1,1 @@
+<img viewBox="0 0 316 316" src="img/icono.png" xmlns="http://www.w3.org/2000/svg" style="object-fit: cover; border-radius: 50%; background: white;" {{ $attributes }}>

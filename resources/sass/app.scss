@@ -1,0 +1,202 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.navbar a{
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.carousel-control-prev{
+    height: 820px;
+}
+
+.carousel-control-next{
+    height: 820px;
+}
+
+.carousel-inner{
+    height: 820px;
+    margin-top: 74px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 820px;
+    object-fit: cover;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.services{
+    padding: 80px 0;
+}
+
+#servicios{
+    height: 420px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg-car1{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)
+    ), url(../../public/img/card1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-car2{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)
+    ), url(../../public/img/card2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-car3{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)
+    ), url(../../public/img/card3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.box-icons i{
+    font-size: 40px;
+}
+
+.box-icons h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.product{
+    padding: 80px 0;
+}
+
+
+#productos{
+    height: 450px;
+}
+
+.card h5{
+    padding: 5px;
+    height: 200px ;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.card-body a{
+    width: 100%;
+}
+
+.banner{
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background-color: #EAE5DF;
+}
+
+.banner img{
+    width: 200px;
+}
+@media(max-width:767px){
+    
+    .carousel-control-prev{
+        height: 350px;
+    }
+    
+    .carousel-control-next{
+        height: 350px;
+    }
+    
+    .carousel-inner{
+        height: 350px;
+        margin-top: 65px;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .carousel-caption{
+        bottom: 30px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .services{
+        padding: 30px 0;
+    }
+
+    .product{
+        padding: 30px 0 0 0;
+    }
+
+    .banner{
+        margin-bottom: 30px;
+    }
+
+}
